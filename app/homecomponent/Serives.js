@@ -12,7 +12,7 @@ const servicesData = [
     imageSrc: '/assest/services1.jpeg',
     width: 100,
     height: 50,
-    description: 'Improve your pet\'s behavior and obedience with our positive reinforcement techniques.',
+    description: 'Improve your pets behavior and obedience with our positive reinforcement techniques.',
   },
   {
     title: 'Pet Sitting',
@@ -54,8 +54,8 @@ const servicesData = [
 
           <p className="text-black text-xl leading-normal text-justify">
             Our customized dog services offer individual attention and care,
-            tailored to meet your dog's unique needs and your preferences as an
-            owner.
+            tailored to meet your dog&apos;s unique needs and your preferences
+            as an owner.
           </p>
           <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 gap-5 py-5">
             {servicesData.map((service, index) => (
