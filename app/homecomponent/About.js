@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 import { PiDogFill } from "react-icons/pi";
@@ -60,8 +60,18 @@ const About = () => {
             </div>
             {/* right */}
             <div className="flex flex-col justify-center items-center py-10 px-5 xl:w-1/2 lg:w-1/2 md:w-full w-full ">
-              <Image src={"/assest/training.webp"} width={500} height={500} alt="#" />
-              <Image src={"/assest/training1.webp"} width={500} height={500} alt="#" />
+              <Image
+                src={"/assest/training.webp"}
+                width={500}
+                height={500}
+                alt="#"
+              />
+              <Image
+                src={"/assest/training1.webp"}
+                width={500}
+                height={500}
+                alt="#"
+              />
             </div>
           </div>
         </div>

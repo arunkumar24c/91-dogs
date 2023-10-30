@@ -4,40 +4,40 @@ import React from "react";
 import { PiDog } from "react-icons/pi";
 
 const Serives = () => {
-
-
-const servicesData = [
-  {
-    title: 'Dog Walking',
-    imageSrc: '/assest/services1.jpeg',
-    width: 100,
-    height: 50,
-    description: 'Improve your pets behavior and obedience with our positive reinforcement techniques.',
-  },
-  {
-    title: 'Pet Sitting',
-    imageSrc: '/assest/service2.webp',
-    width: 100,
-    height: 50,
-    description: 'Our team provides safe and reliable pet sitting services for your furry friends.',
-  },
-  {
-    title: 'Dog Grooming',
-    imageSrc: '/assest/service5.webp',
-    width: 100,
-    height: 50,
-    description: 'Keep your dog looking its best with our professional grooming services.',
-  },
-  {
-    title: 'Dog Training',
-    imageSrc: '/assest/service4.webp',
-    width: 100,
-    height: 50,
-    description: 'Train your dog with our experts to improve behavior and obedience.',
-  },
-];
-
-
+  const servicesData = [
+    {
+      title: "Dog Walking",
+      imageSrc: "/assest/services1.jpeg",
+      width: 100,
+      height: 50,
+      description:
+        "Improve your pets behavior and obedience with our positive reinforcement techniques.",
+    },
+    {
+      title: "Pet Sitting",
+      imageSrc: "/assest/service2.webp",
+      width: 100,
+      height: 50,
+      description:
+        "Our team provides safe and reliable pet sitting services for your furry friends.",
+    },
+    {
+      title: "Dog Grooming",
+      imageSrc: "/assest/service5.webp",
+      width: 100,
+      height: 50,
+      description:
+        "Keep your dog looking its best with our professional grooming services.",
+    },
+    {
+      title: "Dog Training",
+      imageSrc: "/assest/service4.webp",
+      width: 100,
+      height: 50,
+      description:
+        "Train your dog with our experts to improve behavior and obedience.",
+    },
+  ];
 
   return (
     <div className="bg-white" id="service">

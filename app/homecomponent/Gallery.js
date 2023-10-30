@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 
@@ -35,10 +35,10 @@ const Gallery = () => {
               key={image.id}
               className="relative group overflow-hidden hover:scale-105 hover:rotate-3 transform transition-transform"
             >
-              <div className="w-full h-60  relative rounded-full">
+              <div className="w-full h-60  relative ">
                 <Image
-                 width={300} 
-                 height={300}
+                  width={300}
+                  height={300}
                   src={image.url}
                   alt="#"
                   className="group-hover:opacity-80 transition-opacity duration-300 "

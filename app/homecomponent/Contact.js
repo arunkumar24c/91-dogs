@@ -24,7 +24,7 @@ const Contact = () => {
               <ul className="mb-6 md:mb-0">
                 <li className="flex">
                   <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-white">
-                    <FaMapMarker /> 
+                    <FaMapMarker />
                   </div>
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-black dark:text-white">
@@ -33,14 +33,12 @@ const Contact = () => {
                     <p className="text-black dark:text-slate-400">
                       1230 xy road
                     </p>
-                    <p className="text-black dark:text-slate-400">
-                      tamilnadu
-                    </p>
+                    <p className="text-black dark:text-slate-400">tamilnadu</p>
                   </div>
                 </li>
                 <li className="flex">
                   <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-white">
-                    <FaPhone /> 
+                    <FaPhone />
                   </div>
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-black-900 dark:text-black">

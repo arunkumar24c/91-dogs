@@ -1,32 +1,23 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import {
-
-  BsInstagram,
-  BsLinkedin,
-  BsYoutube,
-  BsWhatsapp,
-} from "react-icons/bs";
+import { BsInstagram, BsLinkedin, BsYoutube, BsWhatsapp } from "react-icons/bs";
 import { RiTwitterXLine } from "react-icons/ri";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
-
 export default function Footer() {
-  
- 
- const Links = [
-   { name: "Home", link: "home" },
-   { name: "Service", link: "service" },
-   { name: "About Us", link: "about" },
-   { name: "Gallery", link: "gallery" },
-   { name: "Contact Us", link: "contact" },
- ];
- const [isOpen, setIsOpen] = useState(false);
+  const Links = [
+    { name: "Home", link: "home" },
+    { name: "Service", link: "service" },
+    { name: "About Us", link: "about" },
+    { name: "Gallery", link: "gallery" },
+    { name: "Contact Us", link: "contact" },
+  ];
+  const [isOpen, setIsOpen] = useState(false);
 
- const toggleMenu = () => {
-   setIsOpen(!isOpen);
- };
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   const scrollAndCloseMenu = (id) => {
     toggleMenu();
     const element = document.getElementById(id);
@@ -128,7 +119,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
       </footer>
     </div>
   );
