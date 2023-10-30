@@ -35,7 +35,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="brand-container  px-5">
       <div className="shadow-md w-full fixed z-10 top-0 left-0">
         <div className="md:flex items-center justify-between bg-white py-6 md:px-10 px-7">
           <div className="flex gap-2 cursor-pointer">
@@ -50,7 +50,7 @@ const Navbar = () => {
             {isOpen ? <GrClose size={20} /> : <SlMenu size={20} />}
           </div>
           <ul
-            className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static font-work-sans bg-white gap-[2rem] md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+            className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static font-work-sans bg-white gap-[2rem] md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in px-5 ${
               isOpen ? "top-12" : "top-[-490px]"
             }`}
           >
