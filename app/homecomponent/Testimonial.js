@@ -91,10 +91,7 @@ const Testimonial = () => {
         Testimonials From Our Clients With Dogs
       </p>
 
-      {/* <p className="text-md font-bold py-5 text-[#1a1757] text-center font-work-sans">
-        Community development is often linked with community <br /> work or
-        community planning, and may involve stakeholders, foundations,
-      </p> */}
+     
       <Slider ref={slider} {...settings}>
         {data.map((values, index) => (
           <div className="mx-1" key={index}>

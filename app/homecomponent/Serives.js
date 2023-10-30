@@ -41,7 +41,7 @@ const servicesData = [
 
   return (
     <div className="bg-white" id="service">
-      <div className="brand-container py-10">
+      <div className="brand-container px-5 py-10">
         <div className="flex flex-col gap-5">
           {/* title */}
 
@@ -69,6 +69,7 @@ const servicesData = [
                     width={service.width}
                     height={service.height}
                     className="w-full"
+                    alt="#"
                   />
                 </div>
                 <h1 className="text-center mt-2 text-2xl font-bold">

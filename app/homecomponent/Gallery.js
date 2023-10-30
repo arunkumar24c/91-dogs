@@ -40,7 +40,7 @@ const Gallery = () => {
                  width={300} 
                  height={300}
                   src={image.url}
-                  alt=""
+                  alt="#"
                   className="group-hover:opacity-80 transition-opacity duration-300 "
                 />
               </div>

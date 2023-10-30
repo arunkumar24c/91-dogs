@@ -4,7 +4,7 @@ import { FaPaw } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="mt-[5rem] bg" id="home">
-      <div className="brand-container h-[80vh]">
+      <div className="brand-container px-5 h-[80vh]">
         <div className=" flex-col flex gap-6  leading-normal py-20">
           {/* title */}
           <div className="flex flex-col leading-normal gap-3 pt-[5rem]">
