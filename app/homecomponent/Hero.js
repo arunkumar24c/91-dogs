@@ -15,11 +15,14 @@ const Hero = () => {
               With Your Little
             </h1>
             <h1 className="text-[red] font-bold text-[35px] flex gap-3">
-              Friends <span className="text-white"><FaPaw/></span>
+              Friends{" "}
+              <span className="text-white">
+                <FaPaw />
+              </span>
             </h1>
           </div>
           <div className="">
-            <p className="font-semibold text-[18px] text-justify xl:w-[22rem] lg:w-[22rem] md:w-full w-full leading-normal text-white">
+            <p className="font-semibold text-[18px] text-justify xl:w-[22rem] lg:w-[22rem] md:w-[18rem]  w-full leading-normal text-white">
               The Dog is a small carnivorous animal . it is only species in the
               Family Felidae and often referred to ....
             </p>

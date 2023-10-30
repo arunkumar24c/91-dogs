@@ -33,11 +33,11 @@ const FaqData = [
 const Faq = () => {
   return (
     <>
-      <div className="mx-auto px-10 py-10" id="faq">
+      <div className=" py-10" id="faq">
         <h1 className="text-black text-4xl text-center py-10">
           FAQ<span className="text-[#615e5e]">&apos;s</span>
         </h1>
-     
+
         <div className="">
           {FaqData.map((values, index) => {
             return <FaqCard key={index} {...values} />;
@@ -58,7 +58,7 @@ const FaqCard = ({ question, answer }) => {
   };
   return (
     <>
-      <div className="brand-container px-2">
+      <div className="brand-container">
         <div
           onClick={toggleOpen}
           className="flex cursor-pointer bg-[#F2F6F6] justify-between items-center px-5  w-full"

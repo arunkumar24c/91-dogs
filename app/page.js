@@ -4,8 +4,9 @@ import Serives from "./homecomponent/Serives";
 import About from "./homecomponent/About";
 import Contact from "./homecomponent/Contact";
 import Gallery from "./homecomponent/Gallery";
-import Testimonial from "./homecomponent/Testimonial";
+
 import Faq from "./homecomponent/Faq";
+import Testimonials from "./homecomponent/Testimonials";
 
 export const metadata = {
   title: "91 Dogs",
@@ -17,11 +18,12 @@ export default function Home() {
     <main>
       <Hero />
       <Serives />
-      <About/>
-      <Gallery/>
-      <Testimonial/>
-      <Contact/>
-      <Faq/>
+      <About />
+      <Gallery />
+      <Testimonials />
+      <Contact />
+
+      <Faq />
     </main>
   );
 }

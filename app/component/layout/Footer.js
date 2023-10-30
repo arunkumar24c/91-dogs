@@ -91,7 +91,7 @@ export default function Footer() {
                 type="email"
                 name="email"
                 placeholder="Email"
-                class="xl:w-[300px] h-[47px] rounded-l-md text-[15px] bg-white pl-4 text-black border-b border-black focus:outline-none"
+                class="xl:w-[300px] h-[47px]  text-[15px] bg-white pl-4 text-black border-b border-black focus:outline-none"
                 required
               />
               <button class="w-[87px] h-[47px] text-[15px] bg-[red] text-white focus:outline-none p-2">
@@ -128,7 +128,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr className="" />
+        
       </footer>
     </div>
   );
