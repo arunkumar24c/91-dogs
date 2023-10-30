@@ -7,7 +7,7 @@ import "glider-js/glider.min.css";
 
 const data = [
   {
-    name: "CHARLIE",
+    name: "OPPIE AND JACK",
     Founder: "~Leslie",
     content:
       "Sometimes the challenges we face with our pets may seem overwhelming.  Sometimes we feel helpless and hopeless.  This was my situation with my beloved Charlie… until I found Texas Veterinary Behavior Services. Charlie was a basket case and my family was powerless to help him find peace.  Charlie had a host of problems. He ripped our clothes off our bodies, barked, growled and lunged at other dogs on walks, self-mutilated when stressed, and even hallucinated frequently. He was certifiably a nutcase!",
@@ -29,14 +29,14 @@ const data = [
     url: "/assest/img11.webp",
   },
   {
-    name: "OPPIE AND JACK",
+    name: "CHARLIE",
     Founder: "~Paula and Gus",
     content:
       "We have been working with Dr. Haug for 8 months, and I am so thrilled with the improvements in our household. We have three rescue dogs – two males and one female. Eight months ago my two male dogs began fighting with each other whenever I was in the same room with them. I could not sit down in a chair or be in the same room without them fighting over me, and I would end up getting hurt. My husband was ready to get rid of our littlest male (Oppie) whom has always been a little quirky. Oppie was always territorial with me and would growl and snap if you touched him wrong. We had learned to live with that. ",
     url: "/assest/img4.webp",
   },
   {
-    name: "CHARLIE",
+    name: " OPPIE AND JACK",
     Founder: "~Leslie",
     content:
       "Sometimes the challenges we face with our pets may seem overwhelming.  Sometimes we feel helpless and hopeless.  This was my situation with my beloved Charlie… until I found Texas Veterinary Behavior Services. Charlie was a basket case and my family was powerless to help him find peace.  Charlie had a host of problems. He ripped our clothes off our bodies, barked, growled and lunged at other dogs on walks, self-mutilated when stressed, and even hallucinated frequently. He was certifiably a nutcase!",
@@ -58,7 +58,7 @@ const data = [
     url: "/assest/img11.webp",
   },
   {
-    name: "OPPIE AND JACK",
+    name: "CHARLIE",
     Founder: "~Paula and Gus",
     content:
       "We have been working with Dr. Haug for 8 months, and I am so thrilled with the improvements in our household. We have three rescue dogs – two males and one female. Eight months ago my two male dogs began fighting with each other whenever I was in the same room with them. I could not sit down in a chair or be in the same room without them fighting over me, and I would end up getting hurt. My husband was ready to get rid of our littlest male (Oppie) whom has always been a little quirky. Oppie was always territorial with me and would growl and snap if you touched him wrong. We had learned to live with that. ",
@@ -67,7 +67,6 @@ const data = [
 ];
 
 const Testimonials = () => {
- 
   const gliderRef = useRef(null);
 
   const handleGliderNext = useCallback(() => {
@@ -175,6 +174,5 @@ const PopularDestinationCard = (props) => {
     </div>
   );
 };
-
 
 export default Testimonials;
